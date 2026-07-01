@@ -435,7 +435,7 @@ CREATE TABLE `settings` (
 
 LOCK TABLES `settings` WRITE;
 /*!40000 ALTER TABLE `settings` DISABLE KEYS */;
-INSERT INTO `settings` VALUES (1,'site_name','SafeRoad AI','general',NULL,'2026-07-01 14:55:54'),(2,'admin_email','admin@saferoad.ai','general',NULL,'2026-07-01 14:55:54'),(3,'speed_warning_threshold','10','safety',NULL,'2026-07-01 14:55:54'),(4,'voice_warning_enabled','1','safety',NULL,'2026-07-01 14:55:54'),(5,'location_update_interval','5','tracking',NULL,'2026-07-01 14:55:54'),(6,'google_maps_api_key','AIzaSyAoA4jEX78Mx95nDdTHJf2an9PWwJhADUM','api',NULL,'2026-07-01 15:21:14'),(7,'alert_radius_default','500','alerts',NULL,'2026-07-01 14:55:54'),(8,'session_timeout','3600','security',NULL,'2026-07-01 14:55:54'),(9,'dark_mode','0','appearance',NULL,'2026-07-01 14:55:54'),(10,'notifications_enabled','1','notifications',NULL,'2026-07-01 14:55:54');
+INSERT INTO `settings` VALUES (1,'site_name','SafeRoad AI','general',NULL,'2026-07-01 14:55:54'),(2,'admin_email','admin@saferoad.ai','general',NULL,'2026-07-01 14:55:54'),(3,'speed_warning_threshold','10','safety',NULL,'2026-07-01 14:55:54'),(4,'voice_warning_enabled','1','safety',NULL,'2026-07-01 14:55:54'),(5,'location_update_interval','5','tracking',NULL,'2026-07-01 14:55:54'),(6,'google_maps_api_key','YOUR_API_KEY_HERE','api',NULL,'2026-07-01 17:36:04'),(7,'alert_radius_default','500','alerts',NULL,'2026-07-01 14:55:54'),(8,'session_timeout','3600','security',NULL,'2026-07-01 14:55:54'),(9,'dark_mode','0','appearance',NULL,'2026-07-01 14:55:54'),(10,'notifications_enabled','1','notifications',NULL,'2026-07-01 14:55:54');
 /*!40000 ALTER TABLE `settings` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -556,4 +556,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-07-01 20:26:39
+-- Dump completed on 2026-07-01 20:36:13
