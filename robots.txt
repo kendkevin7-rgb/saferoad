@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /config/
+Disallow: /database/
+Disallow: /includes/
+Disallow: /driver/
+Disallow: /uploads/
+Disallow: /login.php
+Disallow: /register.php
+Disallow: /logout.php
+Disallow: /forgot-password.php
+Disallow: /reset-password.php
